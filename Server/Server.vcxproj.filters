@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Trace">
+      <UniqueIdentifier>{74372F0E-E04B-57BF-A9CD-FA1E15A153F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trace\src">
+      <UniqueIdentifier>{8B8F4179-F7F9-F5EF-4038-A795ACE1D344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trace\src\Log">
+      <UniqueIdentifier>{DC745F57-4835-DB8D-1170-240B7DEF1F6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Trace\src\Log\Log.h">
+      <Filter>Trace\src\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace\src\Server.h">
+      <Filter>Trace\src</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Trace\src\Log\Log.cpp">
+      <Filter>Trace\src\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace\src\Server.cpp">
+      <Filter>Trace\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace\src\main.cpp">
+      <Filter>Trace\src</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+</Project>
